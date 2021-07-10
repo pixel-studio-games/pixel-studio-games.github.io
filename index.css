@@ -1,0 +1,45 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .headshot {
+    width: 75%;
+    float: right;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.relative {
+    position: relative;
+}
+
+.locked {
+    position: absolute;
+    bottom: 0;
+}
+
+.plea-for-help {
+    position: relative;
+    font-weight: bold;
+    font-variant: full-width;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.icons {
+    text-align: right;
+}
+
+.social {
+    text-decoration: none !important;
+}
